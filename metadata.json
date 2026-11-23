@@ -1,0 +1,8 @@
+{
+  "name": "DesignDrop",
+  "description": "Custom T-shirt and mug printing store where you design products with a live 3D preview.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="ddTile" x1="40" y1="40" x2="472" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E1A2E"/>
+      <stop offset="55%" stop-color="#12121A"/>
+      <stop offset="100%" stop-color="#09090D"/>
+    </linearGradient>
+    <linearGradient id="ddRim" x1="472" y1="40" x2="56" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF5A5F" stop-opacity="0.9"/>
+      <stop offset="48%" stop-color="#8B5CF6" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="ddDrop" x1="170" y1="342" x2="384" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="55%" stop-color="#D946EF"/>
+      <stop offset="100%" stop-color="#FF5A5F"/>
+    </linearGradient>
+    <radialGradient id="ddGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(373 139) rotate(135) scale(278)">
+      <stop offset="0%" stop-color="#FF5A5F" stop-opacity="0.30"/>
+      <stop offset="55%" stop-color="#7C3AED" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0E0E14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sculpted Asymmetrical Ink-Drop Crest -->
+  <path d="M181 32H432C461.455 32 480 50.545 480 80V331C480 413.475 413.475 480 331 480H181C98.525 480 32 413.475 32 331V181C32 98.525 98.525 32 181 32Z" fill="url(#ddTile)"/>
+  <path d="M181 32H432C461.455 32 480 50.545 480 80V331C480 413.475 413.475 480 331 480H181C98.525 480 32 413.475 32 331V181C32 98.525 98.525 32 181 32Z" fill="url(#ddGlow)"/>
+  <path d="M181 40H432C457.037 40 472 54.963 472 80V331C472 409.056 409.056 472 331 472H181C102.944 472 40 409.056 40 331V181C40 102.944 102.944 40 181 40Z" stroke="url(#ddRim)" stroke-width="13"/>
+
+  <!-- Outer Architectural Open-Shoulder "D" Ribbon -->
+  <path d="M256 130.67H154.67C141.41 130.67 130.67 141.41 130.67 154.67V357.33C130.67 370.59 141.41 381.33 154.67 381.33H248C325.33 381.33 381.33 328.53 381.33 253.33C381.33 242.13 379.95 231.25 377.39 221.01" stroke="#FAF9F6" stroke-width="43.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner Suspended Liquid Ink Droplet -->
+  <g transform="translate(241.07 270.93) rotate(45)">
+    <path d="M0 -177.07C25.07 -101.33 67.73 -49.07 67.73 0A67.73 67.73 0 1 1 -67.73 0C-67.73 -49.07 -25.07 -101.33 0 -177.07Z" fill="url(#ddDrop)"/>
+    <path d="M-30.4 -11.73C-30.4 12.27 -15.47 30.93 5.87 33.6" stroke="#FFFFFF" stroke-width="17.6" stroke-linecap="round" stroke-opacity="0.88"/>
+  </g>
+
+  <!-- Print Registration Apex Dot -->
+  <circle cx="421.33" cy="90.67" r="15.47" fill="#FF5A5F" fill-opacity="0.94"/>
+</svg>
